@@ -1,0 +1,29 @@
+# Python virtual environment
+.venv/
+venv/
+
+# Python-generated files
+__pycache__/
+*.pyc
+
+# API keys and credentials
+.streamlit/secrets.toml
+**/secrets.toml
+.env
+.env.*
+
+# Generated financial data for experimental runs
+data/cache/facts/*
+!data/cache/facts/.gitkeep
+
+data/cache/pdfs/*
+!data/cache/pdfs/.gitkeep
+
+data/runs/*
+!data/runs/.gitkeep
+
+# Obsolete code
+NOT USED document_discovery.py
+
+# Local caches
+.pytest_cache/

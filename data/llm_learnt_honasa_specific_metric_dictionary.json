@@ -1,0 +1,365 @@
+{
+  "version": 1,
+  "mappings": [
+    {
+      "company": "https://honasa.in",
+      "name": "adjusted gross profit margin",
+      "result": {
+        "metric_key": "custom__adjusted_gross_profit_margin_df2a706",
+        "metric_label": "Adjusted Gross profit Margin",
+        "metric_category": "company_specific",
+        "mapping_method": "company_specific"
+      }
+    },
+    {
+      "company": "https://honasa.in",
+      "name": "adjusted revenue from operations",
+      "result": {
+        "metric_key": "custom__adjusted_revenue_from_operations_2803646",
+        "metric_label": "Adjusted Revenue from Operations",
+        "metric_category": "company_specific",
+        "mapping_method": "company_specific"
+      }
+    },
+    {
+      "company": "https://honasa.in",
+      "name": "advertisement expense",
+      "result": {
+        "metric_key": "advertising_promotion_expense",
+        "metric_label": "Advertising and promotion expense",
+        "metric_category": "profit_loss",
+        "mapping_method": "llm"
+      }
+    },
+    {
+      "company": "https://honasa.in",
+      "name": "advertisement expense percent of revenue",
+      "result": {
+        "metric_key": "custom__advertisement_expense_percent_of_revenue_9f7ae13",
+        "metric_label": "Advertisement expense % of Revenue",
+        "metric_category": "company_specific",
+        "mapping_method": "company_specific"
+      }
+    },
+    {
+      "company": "https://honasa.in",
+      "name": "cash generated from business",
+      "result": {
+        "metric_key": "custom__cash_generated_from_business_e174394",
+        "metric_label": "Cash Generated from Business",
+        "metric_category": "company_specific",
+        "mapping_method": "company_specific"
+      }
+    },
+    {
+      "company": "https://honasa.in",
+      "name": "cash generation",
+      "result": {
+        "metric_key": "custom__cash_generation_c396586",
+        "metric_label": "Cash Generation",
+        "metric_category": "company_specific",
+        "mapping_method": "company_specific"
+      }
+    },
+    {
+      "company": "https://honasa.in",
+      "name": "ebitda percent",
+      "result": {
+        "metric_key": "ebitda_margin",
+        "metric_label": "EBITDA margin",
+        "metric_category": "profit_loss",
+        "mapping_method": "llm"
+      }
+    },
+    {
+      "company": "https://honasa.in",
+      "name": "employee benefit expense",
+      "result": {
+        "metric_key": "employee_expense",
+        "metric_label": "Employee expense",
+        "metric_category": "profit_loss",
+        "mapping_method": "llm"
+      }
+    },
+    {
+      "company": "https://honasa.in",
+      "name": "employee benefit expense percent of revenue",
+      "result": {
+        "metric_key": "custom__employee_benefit_expense_percent_of_revenue_431eaf9",
+        "metric_label": "Employee benefit expense % of Revenue",
+        "metric_category": "company_specific",
+        "mapping_method": "company_specific"
+      }
+    },
+    {
+      "company": "https://honasa.in",
+      "name": "free cash",
+      "result": {
+        "metric_key": "custom__free_cash_54d754c",
+        "metric_label": "Free Cash",
+        "metric_category": "company_specific",
+        "mapping_method": "company_specific"
+      }
+    },
+    {
+      "company": "https://honasa.in",
+      "name": "gross profit margin",
+      "result": {
+        "metric_key": "gross_margin",
+        "metric_label": "Gross margin",
+        "metric_category": "profit_loss",
+        "mapping_method": "llm"
+      }
+    },
+    {
+      "company": "https://honasa.in",
+      "name": "gross profit margin percent",
+      "result": {
+        "metric_key": "gross_margin",
+        "metric_label": "Gross margin",
+        "metric_category": "profit_loss",
+        "mapping_method": "llm"
+      }
+    },
+    {
+      "company": "https://honasa.in",
+      "name": "gross profit percent",
+      "result": {
+        "metric_key": "gross_margin",
+        "metric_label": "Gross margin",
+        "metric_category": "profit_loss",
+        "mapping_method": "llm"
+      }
+    },
+    {
+      "company": "https://honasa.in",
+      "name": "other expense percent of revenue",
+      "result": {
+        "metric_key": "custom__other_expense_percent_of_revenue_1b2c69e",
+        "metric_label": "Other expense % of Revenue",
+        "metric_category": "company_specific",
+        "mapping_method": "company_specific"
+      }
+    },
+    {
+      "company": "https://honasa.in",
+      "name": "pat margin percent",
+      "result": {
+        "metric_key": "net_profit_margin",
+        "metric_label": "Net profit margin",
+        "metric_category": "profit_loss",
+        "mapping_method": "llm"
+      }
+    },
+    {
+      "company": "https://honasa.in",
+      "name": "pat percent",
+      "result": {
+        "metric_key": "net_profit_margin",
+        "metric_label": "Net profit margin",
+        "metric_category": "profit_loss",
+        "mapping_method": "llm"
+      }
+    },
+    {
+      "company": "https://honasa.in",
+      "name": "pat percent before exceptional items",
+      "result": {
+        "metric_key": "custom__pat_percent_before_exceptional_items_94529d9",
+        "metric_label": "PAT % before exceptional items",
+        "metric_category": "company_specific",
+        "mapping_method": "company_specific"
+      }
+    },
+    {
+      "company": "https://honasa.in",
+      "name": "profit after tax before exceptional items",
+      "result": {
+        "metric_key": "custom__profit_after_tax_before_exceptional_items_6eb23b9",
+        "metric_label": "Profit After Tax before exceptional items",
+        "metric_category": "company_specific",
+        "mapping_method": "company_specific"
+      }
+    },
+    {
+      "company": "https://honasa.in",
+      "name": "profit after tax percent",
+      "result": {
+        "metric_key": "net_profit_margin",
+        "metric_label": "Net profit margin",
+        "metric_category": "profit_loss",
+        "mapping_method": "llm"
+      }
+    },
+    {
+      "company": "https://honasa.in",
+      "name": "reported ebitda percent",
+      "result": {
+        "metric_key": "ebitda_margin",
+        "metric_label": "EBITDA margin",
+        "metric_category": "profit_loss",
+        "mapping_method": "llm"
+      }
+    },
+    {
+      "company": "https://honasa.in",
+      "name": "reported gross profit percent",
+      "result": {
+        "metric_key": "gross_margin",
+        "metric_label": "Gross margin",
+        "metric_category": "profit_loss",
+        "mapping_method": "llm"
+      }
+    },
+    {
+      "company": "https://honasa.in",
+      "name": "reported profit after tax",
+      "result": {
+        "metric_key": "profit_after_tax",
+        "metric_label": "Profit after tax",
+        "metric_category": "profit_loss",
+        "mapping_method": "llm"
+      }
+    },
+    {
+      "company": "https://honasa.in",
+      "name": "reported revenue from operations",
+      "result": {
+        "metric_key": "revenue_from_operations",
+        "metric_label": "Revenue from operations",
+        "metric_category": "profit_loss",
+        "mapping_method": "llm"
+      }
+    },
+    {
+      "company": "https://honasa.in",
+      "name": "restated profit loss after tax",
+      "result": {
+        "metric_key": "custom__restated_profit_loss_after_tax_5478b90",
+        "metric_label": "Restated Profit/(Loss) After Tax",
+        "metric_category": "company_specific",
+        "mapping_method": "company_specific"
+      }
+    },
+    {
+      "company": "https://honasa.in",
+      "name": "restated profit loss before tax",
+      "result": {
+        "metric_key": "custom__restated_profit_loss_before_tax_f5e1d2c",
+        "metric_label": "Restated Profit/(Loss) Before Tax",
+        "metric_category": "company_specific",
+        "mapping_method": "company_specific"
+      }
+    },
+    {
+      "company": "https://honasa.in",
+      "name": "revenue from operations india",
+      "result": {
+        "metric_key": "custom__revenue_from_operations_india_5e95d91",
+        "metric_label": "Revenue from operations (India)",
+        "metric_category": "company_specific",
+        "mapping_method": "company_specific"
+      }
+    },
+    {
+      "company": "https://honasa.in",
+      "name": "revenue from operations outside india",
+      "result": {
+        "metric_key": "custom__revenue_from_operations_outside_india_6f6811b",
+        "metric_label": "Revenue from operations (Outside India)",
+        "metric_category": "company_specific",
+        "mapping_method": "company_specific"
+      }
+    },
+    {
+      "company": "https://honasa.in",
+      "name": "revenue growth",
+      "result": {
+        "metric_key": "custom__revenue_growth_17bfb70",
+        "metric_label": "Revenue Growth",
+        "metric_category": "company_specific",
+        "mapping_method": "company_specific"
+      }
+    },
+    {
+      "company": "https://honasa.in",
+      "name": "revenue share from offline channels",
+      "result": {
+        "metric_key": "custom__revenue_share_from_offline_channels_6b94fc7",
+        "metric_label": "Revenue Share from Offline Channels",
+        "metric_category": "company_specific",
+        "mapping_method": "company_specific"
+      }
+    },
+    {
+      "company": "https://honasa.in",
+      "name": "revenue share from online channels",
+      "result": {
+        "metric_key": "custom__revenue_share_from_online_channels_ad739c3",
+        "metric_label": "Revenue Share From Online Channels",
+        "metric_category": "company_specific",
+        "mapping_method": "company_specific"
+      }
+    },
+    {
+      "company": "https://honasa.in",
+      "name": "underlying volume growth",
+      "result": {
+        "metric_key": "custom__underlying_volume_growth_d964040",
+        "metric_label": "Underlying Volume Growth",
+        "metric_category": "company_specific",
+        "mapping_method": "company_specific"
+      }
+    },
+    {
+      "company": "https://honasa.in",
+      "name": "underlying volume growth uvg",
+      "result": {
+        "metric_key": "custom__underlying_volume_growth_uvg_fa1e846",
+        "metric_label": "Underlying Volume Growth (UVG)",
+        "metric_category": "company_specific",
+        "mapping_method": "company_specific"
+      }
+    },
+    {
+      "company": "https://honasa.in",
+      "name": "uvg",
+      "result": {
+        "metric_key": "custom__uvg_af1dc8f",
+        "metric_label": "UVG",
+        "metric_category": "company_specific",
+        "mapping_method": "company_specific"
+      }
+    },
+    {
+      "company": "https://honasa.in",
+      "name": "working capital cycle",
+      "result": {
+        "metric_key": "custom__working_capital_cycle_35a8fa5",
+        "metric_label": "Working Capital Cycle",
+        "metric_category": "company_specific",
+        "mapping_method": "company_specific"
+      }
+    },
+    {
+      "company": "https://honasa.in",
+      "name": "working capital days",
+      "result": {
+        "metric_key": "custom__working_capital_days_fcad360",
+        "metric_label": "Working Capital Days",
+        "metric_category": "company_specific",
+        "mapping_method": "company_specific"
+      }
+    },
+    {
+      "company": "https://honasa.in",
+      "name": "working capital days of sale",
+      "result": {
+        "metric_key": "custom__working_capital_days_of_sale_3f4e9bd",
+        "metric_label": "Working Capital Days of Sale",
+        "metric_category": "company_specific",
+        "mapping_method": "company_specific"
+      }
+    }
+  ]
+}

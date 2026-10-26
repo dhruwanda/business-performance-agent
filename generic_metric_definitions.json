@@ -1,0 +1,365 @@
+{
+  "description": "Generic financial metric definitions shared across companies",
+  "version": 1,
+  "metrics": {
+    "revenue": {
+      "label": "Revenue",
+      "category": "profit_loss",
+      "aliases": [
+        "revenue"
+      ]
+    },
+    "revenue_from_operations": {
+      "label": "Revenue from operations",
+      "category": "profit_loss",
+      "aliases": [
+        "revenue from operations",
+        "revenue from ops",
+        "revenue from operation",
+        "revenue from operating activities"
+      ]
+    },
+    "net_sales": {
+      "label": "Net sales",
+      "category": "profit_loss",
+      "aliases": [
+        "net sales",
+        "net sale"
+      ]
+    },
+    "total_income": {
+      "label": "Total income",
+      "category": "profit_loss",
+      "aliases": [
+        "total income"
+      ]
+    },
+    "other_income": {
+      "label": "Other income",
+      "category": "profit_loss",
+      "aliases": [
+        "other income"
+      ]
+    },
+    "cost_of_goods_sold": {
+      "label": "Cost of goods sold",
+      "category": "profit_loss",
+      "aliases": [
+        "cost of goods sold",
+        "cogs"
+      ]
+    },
+    "cost_of_materials": {
+      "label": "Cost of materials consumed",
+      "category": "profit_loss",
+      "aliases": [
+        "cost of materials consumed",
+        "raw material consumed",
+        "raw materials consumed"
+      ]
+    },
+    "purchases_of_stock_in_trade": {
+      "label": "Purchases of stock-in-trade",
+      "category": "profit_loss",
+      "aliases": [
+        "purchases of stock in trade",
+        "purchase of stock in trade"
+      ]
+    },
+    "inventory_change_expense": {
+      "label": "Changes in inventories",
+      "category": "profit_loss",
+      "aliases": [
+        "changes in inventories of finished goods work in progress and stock in trade",
+        "changes in inventories",
+        "change in inventories"
+      ]
+    },
+    "gross_profit": {
+      "label": "Gross profit",
+      "category": "profit_loss",
+      "aliases": [
+        "gross profit"
+      ]
+    },
+    "gross_margin": {
+      "label": "Gross margin",
+      "category": "profit_loss",
+      "aliases": [
+        "gross margin",
+        "gross margin percent"
+      ]
+    },
+    "ebitda": {
+      "label": "EBITDA",
+      "category": "profit_loss",
+      "aliases": [
+        "ebitda",
+        "earnings before interest taxes depreciation and amortization",
+        "earnings before interest tax depreciation and amortisation"
+      ]
+    },
+    "adjusted_ebitda": {
+      "label": "Adjusted EBITDA",
+      "category": "profit_loss",
+      "aliases": [
+        "adjusted ebitda",
+        "adj ebitda",
+        "normalised ebitda",
+        "normalized ebitda"
+      ]
+    },
+    "ebitda_margin": {
+      "label": "EBITDA margin",
+      "category": "profit_loss",
+      "aliases": [
+        "ebitda margin",
+        "ebitda margin percent"
+      ]
+    },
+    "adjusted_ebitda_margin": {
+      "label": "Adjusted EBITDA margin",
+      "category": "profit_loss",
+      "aliases": [
+        "adjusted ebitda margin",
+        "adj ebitda margin"
+      ]
+    },
+    "ebit": {
+      "label": "EBIT",
+      "category": "profit_loss",
+      "aliases": [
+        "ebit"
+      ]
+    },
+    "profit_before_tax": {
+      "label": "Profit before tax",
+      "category": "profit_loss",
+      "aliases": [
+        "profit before tax",
+        "profit before taxation",
+        "pbt"
+      ]
+    },
+    "profit_after_tax": {
+      "label": "Profit after tax",
+      "category": "profit_loss",
+      "aliases": [
+        "profit after tax",
+        "pat",
+        "profit for the period",
+        "profit for the year"
+      ]
+    },
+    "profit_attributable_to_owners": {
+      "label": "Profit attributable to owners",
+      "category": "profit_loss",
+      "aliases": [
+        "profit attributable to owners",
+        "profit attributable to shareholders",
+        "profit attributable to owners of the company"
+      ]
+    },
+    "net_profit_margin": {
+      "label": "Net profit margin",
+      "category": "profit_loss",
+      "aliases": [
+        "net profit margin",
+        "pat margin",
+        "profit after tax margin"
+      ]
+    },
+    "employee_expense": {
+      "label": "Employee expense",
+      "category": "profit_loss",
+      "aliases": [
+        "employee benefit expenses",
+        "employee benefits expense",
+        "employee benefits expenses",
+        "employee costs",
+        "employee cost",
+        "employee expense",
+        "employee expenses"
+      ]
+    },
+    "advertising_promotion_expense": {
+      "label": "Advertising and promotion expense",
+      "category": "profit_loss",
+      "aliases": [
+        "advertising and promotion expense",
+        "advertising and promotion expenses",
+        "advertising promotional expenses",
+        "advertisement and publicity expenses",
+        "advertising and sales promotion",
+        "advertising and promotional expense"
+      ]
+    },
+    "other_expenses": {
+      "label": "Other expenses",
+      "category": "profit_loss",
+      "aliases": [
+        "other expense",
+        "other expenses"
+      ]
+    },
+    "finance_cost": {
+      "label": "Finance cost",
+      "category": "profit_loss",
+      "aliases": [
+        "finance costs",
+        "finance cost"
+      ]
+    },
+    "depreciation_amortisation": {
+      "label": "Depreciation and amortisation",
+      "category": "profit_loss",
+      "aliases": [
+        "depreciation and amortization expense",
+        "depreciation and amortisation expense",
+        "depreciation and amortization",
+        "depreciation and amortisation",
+        "depreciation amortization",
+        "depreciation amortisation"
+      ]
+    },
+    "tax_expense": {
+      "label": "Tax expense",
+      "category": "profit_loss",
+      "aliases": [
+        "tax expense",
+        "income tax expense",
+        "total tax expense"
+      ]
+    },
+    "exceptional_items": {
+      "label": "Exceptional items",
+      "category": "profit_loss",
+      "aliases": [
+        "exceptional items",
+        "exceptional item"
+      ]
+    },
+    "total_assets": {
+      "label": "Total assets",
+      "category": "balance_sheet",
+      "aliases": [
+        "total assets"
+      ]
+    },
+    "current_assets": {
+      "label": "Current assets",
+      "category": "balance_sheet",
+      "aliases": [
+        "current assets"
+      ]
+    },
+    "total_liabilities": {
+      "label": "Total liabilities",
+      "category": "balance_sheet",
+      "aliases": [
+        "total liabilities"
+      ]
+    },
+    "current_liabilities": {
+      "label": "Current liabilities",
+      "category": "balance_sheet",
+      "aliases": [
+        "current liabilities"
+      ]
+    },
+    "total_equity": {
+      "label": "Total equity",
+      "category": "balance_sheet",
+      "aliases": [
+        "total equity",
+        "total shareholders equity",
+        "total shareholders funds"
+      ]
+    },
+    "inventories": {
+      "label": "Inventories",
+      "category": "balance_sheet",
+      "aliases": [
+        "inventories",
+        "inventory"
+      ]
+    },
+    "trade_receivables": {
+      "label": "Trade receivables",
+      "category": "balance_sheet",
+      "aliases": [
+        "trade receivables",
+        "accounts receivable",
+        "trade debtors"
+      ]
+    },
+    "trade_payables": {
+      "label": "Trade payables",
+      "category": "balance_sheet",
+      "aliases": [
+        "trade payables",
+        "accounts payable",
+        "trade creditors"
+      ]
+    },
+    "cash_and_equivalents": {
+      "label": "Cash and cash equivalents",
+      "category": "balance_sheet",
+      "aliases": [
+        "cash and cash equivalents",
+        "cash & cash equivalents"
+      ]
+    },
+    "borrowings": {
+      "label": "Borrowings",
+      "category": "balance_sheet",
+      "aliases": [
+        "borrowings"
+      ]
+    },
+    "cash_flow_operations": {
+      "label": "Operating cash flow",
+      "category": "cash_flow",
+      "aliases": [
+        "net cash from operating activities",
+        "net cash generated from operating activities",
+        "cash flow from operations",
+        "cash flows from operating activities"
+      ]
+    },
+    "cash_flow_investing": {
+      "label": "Investing cash flow",
+      "category": "cash_flow",
+      "aliases": [
+        "net cash from investing activities",
+        "cash flows from investing activities",
+        "cash flow from investing activities"
+      ]
+    },
+    "cash_flow_financing": {
+      "label": "Financing cash flow",
+      "category": "cash_flow",
+      "aliases": [
+        "net cash from financing activities",
+        "cash flows from financing activities",
+        "cash flow from financing activities"
+      ]
+    },
+    "basic_eps": {
+      "label": "Basic earnings per share",
+      "category": "per_share",
+      "aliases": [
+        "basic eps",
+        "basic earnings per share"
+      ]
+    },
+    "diluted_eps": {
+      "label": "Diluted earnings per share",
+      "category": "per_share",
+      "aliases": [
+        "diluted eps",
+        "diluted earnings per share"
+      ]
+    }
+  }
+}
