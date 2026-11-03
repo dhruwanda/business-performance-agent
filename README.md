@@ -6,7 +6,7 @@ The goal is to bring financial disclosures, calculations and business context in
 
 ## Workflow
 
-![Business Performance Agent Workflow](assets/business-performance-agent.png)
+![Business Performance Agent Workflow](business-performance-agent.png)
 
 ## What's built so far
 
