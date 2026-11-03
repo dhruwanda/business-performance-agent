@@ -1,50 +1,66 @@
 # Business Performance Agent
 
-A work-in-progress AI agent that answers questions about a company's financial performance and helps explain the trends behind the numbers.
+A work-in-progress AI agent that answers questions about a company's financial performance and helps explain the trends and business drivers behind the numbers.
 
-The goal is to bring financial disclosures, calculations, and business context into one question-led analysis workflow. **Honasa Consumer** is the first company used to test the pipeline, but the code is designed to work with other companies too.
+The goal is to bring financial disclosures, calculations and business context into one question-led analysis workflow. **Honasa Consumer** is the first company used to test the pipeline, but the code is designed to work with other companies too.
+
+## Workflow
+
+![Business Performance Agent Workflow](assets/business-performance-agent.png)
 
 ## What's built so far
 
-- **Document discovery:** Finds financial reports and related PDFs from a company's website.
-- **Financial extraction:** Reads selected PDFs with an LLM and records financial figures alongside their sources.
-- **Data preparation:** Standardises metric names, units and reporting periods, then consolidates the extracted figures. Source conflicts and annual-versus-quarterly differences are retained as flags.
+- **Document discovery:** Finds financial reports, investor presentations and earnings-call transcripts from a company's website.
+- **Financial extraction:** Reads selected PDFs using an LLM and records financial figures alongside their reporting periods and sources.
+- **Data preparation:** Standardises metric names, units and reporting periods, then consolidates the extracted figures. Source conflicts and annual-versus-quarterly discrepancies are retained as flags.
 - **Calculation engine:** Computes growth rates, margins, cost ratios, year-on-year changes and trailing-twelve-month metrics using Python, without relying on the LLM for arithmetic.
-- **Financial Q&A (Stage 1):** A LangChain agent can look up reported figures, calculated metrics and data-quality flags to answer questions about the available financial data.
+- **Document search:** Searches downloaded reports and transcripts for relevant business explanations, with source URLs and PDF page references.
+- **Financial Q&A:** A LangChain agent uses financial lookup and document-search tools to investigate questions and generate evidence-backed answers.
 
-The Streamlit interface currently covers document discovery and extraction. Data preparation, calculations and the first version of the agent run separately in Python.
+The **Streamlit interface** brings company website input, financial Q&A and document processing together. Users can see the agent's tool calls and inspect supporting references. Preparation and calculations for new companies still run separately in Python.
 
 ## Run locally
 
-1. Install dependencies:
+1. **Activate the virtual environment.**
 
-   ```bash
+   In Windows PowerShell, switch to Command Prompt and activate the existing environment:
+
+   ```bat
+   cmd
+   .\.venv\Scripts\activate.bat
+   ```
+
+2. **Install dependencies:**
+
+   ```bat
    pip install -r requirements.txt
    ```
 
-2. Configure your LLM API key locally in `.streamlit/secrets.toml` or through the relevant environment variable.
+3. Configure your LLM API key locally using `.streamlit/secrets.toml` or the `GEMINI_API_KEY` environment variable.
 
-3. Start the document discovery and extraction interface:
+4. **Launch Streamlit:**
 
-   ```bash
+   ```bat
    streamlit run app.py
    ```
 
-4. Once financial data has been extracted, prepare it and run the calculations:
+5. For a new company, once financial documents have been extracted, prepare the data and calculate financial metrics:
 
-   ```bash
+   ```bat
    python financial_data_preparation.py
    python financial_calculations.py --run-dir data/runs/<run-folder>
    ```
 
-5. Ask questions using the prepared financial data:
+6. Ask questions through Streamlit or run the reasoning agent directly:
 
-   ```bash
+   ```bat
    python financial_reasoning_agent.py --run-dir data/runs/<run-folder>
    ```
 
-Downloaded PDFs, cached outputs, run history and API keys are not included in this repository.
+Downloaded PDFs, cached outputs, run histories and API keys are not included in this repository.
 
 ## Coming next
 
-The next step is to let the agent search investor presentations and earnings-call transcripts for explanations behind financial trends. Later, it will be able to request additional documents and market research when a question needs more evidence, with the full experience brought into a conversational Streamlit interface.
+Later, it will be able to request additional documents 
+
+The next steps are to enable question-specific calculations, let the agent request additional documents when needed, and market research when a question needs more evidence. Lastly, bring the full experience into a conversational Streamlit interface.
