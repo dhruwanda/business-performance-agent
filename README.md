@@ -61,6 +61,4 @@ Downloaded PDFs, cached outputs, run histories and API keys are not included in 
 
 ## Coming next
 
-Later, it will be able to request additional documents 
-
 The next steps are to enable question-specific calculations, let the agent request additional documents when needed, and market research when a question needs more evidence. Lastly, bring the full experience into a conversational Streamlit interface.
