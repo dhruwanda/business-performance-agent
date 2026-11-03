@@ -22,7 +22,7 @@ The Streamlit interface currently covers document discovery and extraction. Data
    pip install -r requirements.txt
    ```
 
-2. Configure your LLM API key locally in `.streamlit/secrets.toml` or through the relevant environment variable. **Do not commit API keys.**
+2. Configure your LLM API key locally in `.streamlit/secrets.toml` or through the relevant environment variable.
 
 3. Start the document discovery and extraction interface:
 
